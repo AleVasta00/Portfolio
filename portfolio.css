@@ -1,9 +1,9 @@
-HTML {
+html {
     background-color: rgb(255, 255, 255);
     text-align: center;
 }
 
-HEADER {
+header {
     position: fixed; /* per fissare l'header in alto */
     top: 0;
     left: 0;
@@ -14,7 +14,7 @@ HEADER {
 }
 
 
-MAIN {
+main {
     padding: 100px 0;
 }
 
@@ -132,6 +132,10 @@ nav ul li a:hover, .dropdown:hover .dropbtn {
     nav ul li {
         width: 100%;
     }
+
+    hr {
+        width: 100px;
+    }
 }
 
 /* Immagine di Profilo */
@@ -195,6 +199,7 @@ hr {
     border-color: #D6C694;
 }
 .hr_invisibile {
+    width: 30px;
     opacity: 0;
 }
 
@@ -218,3 +223,16 @@ Footer {
     gap: 20px; /* Spaziatura tra le immagini */
     justify-content: center; /* Spazio tra immagini e barra */ 
 }
+
+.div_contatti {
+    background-color: #D6C694;
+    display: flex;
+    flex-direction: column;
+    padding: 100px; /* 1_su 2_destra 3_sotto 4_sinistra */
+}
+
+.div_contatti {
+    box-sizing: content-box;
+    width: 100%;
+}
+
