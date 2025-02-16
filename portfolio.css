@@ -108,7 +108,7 @@ nav ul li a:hover, .dropdown:hover .dropbtn {
 
 
 /* MOBILE MENU */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     .hamburger {
         display: block;
         cursor: pointer;
@@ -199,7 +199,6 @@ hr {
     border-color: #D6C694;
 }
 .hr_invisibile {
-    width: 20%;
     opacity: 0;
 }
 
