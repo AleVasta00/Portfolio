@@ -134,7 +134,7 @@ nav ul li a:hover, .dropdown:hover .dropbtn {
     }
 
     hr {
-        width: 30px;
+        width: 20%;
     }
 }
 
@@ -193,13 +193,13 @@ p {
 /* Divisore */
 hr {
     height: 2px;
-    width: 200px; /* Imposta una lunghezza massima */
+    width: 50%; /* Imposta una lunghezza massima */
     margin: auto;
     background-color: #D6C694;
     border-color: #D6C694;
 }
 .hr_invisibile {
-    width: 30px;
+    width: 20%;
     opacity: 0;
 }
 
