@@ -134,7 +134,7 @@ nav ul li a:hover, .dropdown:hover .dropbtn {
     }
 
     hr {
-        width: 100px;
+        width: 30px;
     }
 }
 
@@ -193,7 +193,7 @@ p {
 /* Divisore */
 hr {
     height: 2px;
-    width: 800px; /* Imposta una lunghezza massima */
+    width: 200px; /* Imposta una lunghezza massima */
     margin: auto;
     background-color: #D6C694;
     border-color: #D6C694;
