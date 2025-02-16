@@ -108,7 +108,7 @@ nav ul li a:hover, .dropdown:hover .dropbtn {
 
 
 /* MOBILE MENU */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
     .hamburger {
         display: block;
         cursor: pointer;
