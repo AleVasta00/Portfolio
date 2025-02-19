@@ -227,10 +227,6 @@ Footer {
     background-color: #D6C694;
     display: flex;
     flex-direction: column;
-    padding: 100px; /* 1_su 2_destra 3_sotto 4_sinistra */
-}
-
-.div_contatti {
     box-sizing: content-box;
     width: 100%;
 }
