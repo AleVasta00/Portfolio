@@ -15,7 +15,8 @@ header {
 
 
 main {
-    padding: 100px 0;
+    width: 100%;
+    padding-bottom: 100px;
 }
 
 
@@ -135,6 +136,12 @@ nav ul li a:hover, .dropdown:hover .dropbtn {
 
     hr {
         width: 20%;
+        display: flex;
+    }
+
+    div {
+        width: 100%;
+        display: flex;
     }
 }
 
@@ -188,6 +195,11 @@ a {
 p {
     text-align: center;
     padding: 20px 50px 40px 50px; /* 1_su 2_destra 3_sotto 4_sinistra */
+}
+
+h1{
+    font-size: 50px;
+    padding: 50px;
 }
 
 /* Divisore */
