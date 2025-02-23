@@ -25,7 +25,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -174,12 +174,23 @@ nav ul li a:hover, .dropdown:hover .dropbtn {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
-    width: 100vw; /* Occupa tutta la larghezza del sito */
+    width: 100%; /* Occupa tutta la larghezza del sito */
     padding: 20px; /* Aggiunge un po' di margine ai lati */
-    box-sizing: border-box;
+    box-sizing:border-box;
   }
   .box_img img {
     width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* BOX IMMAGINe CENTRATA */
+
+.box_img_unica {
+    align-content: center;
+  }
+  .box_img_unica img {
+    width: 50%;
     height: auto;
     object-fit: cover;
 }
@@ -194,6 +205,7 @@ a {
 
 p {
     text-align: center;
+    font: small bold 24px/1 sans-serif;;
     padding: 20px 50px 40px 50px; /* 1_su 2_destra 3_sotto 4_sinistra */
 }
 
