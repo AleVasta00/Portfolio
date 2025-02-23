@@ -138,10 +138,6 @@ nav ul li a:hover, .dropdown:hover .dropbtn {
         display: flex;
     }
 
-    div {
-        width: 100%;
-        display: flex;
-    }
         
 }
 
@@ -169,7 +165,9 @@ nav ul li a:hover, .dropdown:hover .dropbtn {
     font-weight: 400;
     font-style: italic;
 }
+
 /* BOX IMMAGINI */
+
 .box_img {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -204,6 +202,7 @@ a {
 }
 
 p {
+    font-size: 25px;
     text-align: center;
     font: small bold 24px/1 sans-serif;;
     padding: 20px 50px 40px 50px; /* 1_su 2_destra 3_sotto 4_sinistra */
