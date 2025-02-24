@@ -248,9 +248,10 @@ Footer {
 
 .div_contatti {
     background-color: #D6C694;
-    display: flex;
-    flex-direction: column;
-    box-sizing: content-box;
-    width: 100%;
+    display: grid;
+    align-content:normal
+    justify-content start;
+    justify-items: start;
+    align-items: initial;
 }
 
